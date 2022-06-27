@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Olympic Runner</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Olympic Runner</string>
+
+
+    <string name="go_start_game">GO !</string>
+    <string name="first_record">New First Record</string>
+    <string name="second_record">New Second Record</string>
+    <string name="third_record">New Third Record</string>
+
+
+    <!-- NOTIFICATION SERVICE -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="play">Play</string>
+    <string name="a_propos">About us</string>
+    <string name="slide_1_desc">Olympic Runner is an infinite game, run to beat the Olympic record!</string>
+    <string name="slide_2_title">Play</string>
+    <string name="slide_2_desc">Swipe left or right to avoid barriers or pick up a life!</string>
+    <string name="slide_3_title">Username</string>
+    <string name="slide_3_desc">Change your account username!</string>
+    <string name="slide_4_title">Improve your score!</string>
+    <string name="slide_4_desc">The top 3 scores are recorded so do your best to get the best!</string>
+    <string name="a_propos1">This game was created and developed by Florian Moussé</string>
+    <string name="a_propos3">Graphics : Jérôme BEUNARD</string>
+    <string name="a_propos4">Music : Mathéo MOUSSÉ</string>
+    <string name="changer_pseudo">Change Username</string>
+    <string name="pseudo">Username</string>
+    <string name="score">Score</string>
+    <string name="date">Date</string>
+    <string name="premier">First</string>
+    <string name="deuxieme">Second</string>
+    <string name="troisieme">Third</string>
+    <string name="jouer">Click to Play</string>
+    <string name="classement">Ranking</string>
+    <string name="parametres">Settings</string>
+    <string name="votre_pseudo">Your username</string>
+    <string name="valider">Validate</string>
+    <string name="retour">Back</string>
+    <string name="bravo_mort">Well done!</string>
+    <string name="recommencer_mort">Try again!</string>
+    <string name="login">Connection</string>
+    <string name="notification_title">You have received a notification</string>
+    <string name="error_not_connected">You need to log in!</string>
+    <string name="error_authentication_canceled">Authentication cancelled&#8230;</string>
+    <string name="error_no_internet">No internet connection !</string>
+    <string name="error_unknown_error">An unknown error has occurred&#8230;</string>
+    <string name="connection_succeed">Successful authentication!</string>
+    <string name="button_login_text_logged">View profile</string>
+    <string name="button_login_text_not_logged">Connection</string>
+    <string name="toolbar_title_login_activity">Your Profile</string>
+    <string name="text_input_username">User name</string>
+    <string name="text_view_email">Email address:</string>
+    <string name="button_update_account">Update user name</string>
+    <string name="button_delete_account">Delete my account</string>
+    <string name="button_sign_out_account">Disconnect</string>
+    <string name="info_no_email_found">No email address</string>
+    <string name="info_no_username_found">No username</string>
+    <string name="popup_message_confirmation_delete_account">Are you sure you want to delete your account?</string>
+    <string name="popup_message_choice_yes">Yes !</string>
+    <string name="popup_message_choice_no">No</string>
+    <string name="updated_data">Updated data</string>
+    <string name="min_1_caractere">You must have a nickname of at least one character</string>
+    <string name="max_13_caractere">You must have a nickname of less than 13 characters</string>
+    <string name="days">" days, "</string>
+    <string name="hours">" hours, "</string>
+    <string name="minutes">" minutes, "</string>
+    <string name="secondes">" seconds"</string>
+    <string name="informations">INFORMATION</string>
+    <string name="classement_mondial">WORLD RANKING</string>
+    <string name="mon_classement">MY RANKING</string>
+    <string name="adresse_mail">Mail address :</string>
+    <string name="temps_pass_jouer">Time spent playing</string>
+    <string name="d_connexion">Disconnect</string>
+    <string name="supprimer_mon_compte">Delete my account</string>
+    <string name="tutoriel">Tutorial</string>
+    <string name="couleur">Color</string>
+    <string name="param_tres">SETTINGS</string>
+    <string name="vous_devez_changer_de_pseudo">You must change your nickname</string>
+    <string name="quitter">Leave?</string>
+    <string name="voulez_vous_vraiment_quitter">Do you really want to leave?</string>
+    <string name="ok">OK</string>
+    <string name="annuler">CANCEL</string>
+    <string name="vies_restante">" remaining lives"</string>
+    <string name="vie_restante">" remaining life"</string>
+    <string name="retry">Retry</string>
+    <string name="play_offline">Play offline</string>
+    <string name="warning_playing_offline">Your score will not be recorded if you play offline</string>
+
+    <!-- MAIN ACTIVITY -->
+
+    <!-- LOGIN ACTIVITY -->
+</resources>

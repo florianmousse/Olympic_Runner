@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menuEcran"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MenuActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/piste" />
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+
+            <ImageButton
+                android:id="@+id/classement_button"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center|start"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/app_res_bg_button"
+                android:clickable="true"
+                android:cropToPadding="true"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_medaille" />
+
+            <ImageButton
+                android:id="@+id/sound_button"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center|start"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/app_res_bg_button"
+                android:clickable="true"
+                android:cropToPadding="true"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/classement_button"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/language"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center|start"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/en"
+                android:cropToPadding="true"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/sound_button"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageButton
+                android:id="@+id/info_button"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center|end"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/app_res_bg_button"
+                android:clickable="true"
+                android:cropToPadding="true"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/settings_button"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_infos" />
+
+
+            <ImageButton
+                android:id="@+id/settings_button"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center|end"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/app_res_bg_button"
+                android:clickable="true"
+                android:cropToPadding="true"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/account_button"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_settings" />
+
+
+            <ImageButton
+                android:id="@+id/account_button"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center|end"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/app_res_bg_button"
+                android:clickable="true"
+                android:cropToPadding="true"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_account_circle" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/compteur_imageview"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:background="@drawable/compteur"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <LinearLayout
+        android:id="@+id/titres"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/compteur_imageview"
+        app:layout_constraintTop_toTopOf="@+id/compteur_imageview">
+
+        <TextView
+            android:id="@+id/titre1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="OLYMPIC"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/titre2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center|center_horizontal"
+            android:text="RUNNER"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:background="@drawable/app_res_bg_button"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/play"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/textApp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <TextView
+        android:id="@+id/warning_playing_offline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center_horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/warning_playing_offline"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

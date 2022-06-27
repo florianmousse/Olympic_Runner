@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "925452293416",
+    "project_id": "olympic-runner-74beb",
+    "storage_bucket": "olympic-runner-74beb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925452293416:android:c5f648feb37d104a746c1d",
+        "android_client_info": {
+          "package_name": "jeu.or.olympicrunner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925452293416-68mc282aa6o7qgim72munvq41hd5bqc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jeu.or.olympicrunner",
+            "certificate_hash": "1c9e92dd8d4c39c00e1e407f406e9d40bf078f70"
+          }
+        },
+        {
+          "client_id": "925452293416-ulkfut1kcb92fk9hr8hklo1s82f4p4va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSnnibaz9JcoWwAs8hT8R7BJ_7Vq4W-fA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925452293416-ulkfut1kcb92fk9hr8hklo1s82f4p4va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
